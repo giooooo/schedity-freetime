@@ -9,14 +9,28 @@ export default [
   {
     path: '/home',
     name: 'home',
+    alias: '/',
     component: Home,
   },
 
   // dashboard
   {
     path: '/dash',
-    name: 'dashboard',
     component: Dashboard,
+    children: [
+      {
+        path: 'graphsmaps',
+        component: Home,
+      },
+      {
+        path: 'managedata',
+        component: Home,
+      },
+      {
+        path: 'generateticket',
+        component: Home,
+      },
+    ],
     beforeEnter: (to, from, next) => {
       next();
     },
