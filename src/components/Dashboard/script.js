@@ -7,7 +7,14 @@ export default {
   },
   data() {
     return  {
-
+      drawer: true,
+      items: [
+          { title: 'Graphs and Maps', icon: 'my_location', link: '/dash/graphsmaps' },
+          { title: 'Manage Data', icon: 'data_usage', link: '/dash/managedata' },
+          { title: 'Generate Ticket', icon: 'bookmark_border', link: '/dash/generateticket' },
+      ],
+      mini: false,
+      right: null,
     }
   },
   computed: {
@@ -28,5 +35,8 @@ export default {
     return {
 
     }
-  }
+  },
+  mounted() {
+
+  },
 }
