@@ -18,4 +18,6 @@ npm run build
 npm run build --report
 ```
 
+create a .env file at the root of the project (see .env_example)
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
