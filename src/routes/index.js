@@ -24,7 +24,7 @@ export default [
       },
       {
         path: 'managedata',
-        component: Home,
+        component: NotFound,
       },
       {
         path: 'generateticket',
