@@ -5,8 +5,8 @@
   "author": "giooooo <gbperalta1@up.edu.ph>",
   "private": true,
   "scripts": {
-    "run:dev": "node -r dotenv/config build/dev-server.js",
-    "run:build": "node -r dotenv/config build/build.js",
+    "dev": "node -r dotenv/config build/dev-server.js",
+    "build": "node -r dotenv/config build/build.js",
     "start:dev": "node -r dotenv/config build/dev-server.js",
     "start:build": "node -r dotenv/config build/build.js",
     "lint": "eslint --ext .js,.vue src"
@@ -15,7 +15,8 @@
     "axios": "0.16.2",
     "lodash": "4.17.4",
     "vue": "2.3.3",
-    "vue-router": "2.3.1"
+    "vue-router": "2.3.1",
+    "vuetify": "0.12.7"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

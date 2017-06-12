@@ -25,7 +25,7 @@ Object.defineProperty(Vue.prototype, '$http', {
 Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
-  base: '/app',
+  base: '/',
   routes,
 });
 
